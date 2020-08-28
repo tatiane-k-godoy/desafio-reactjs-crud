@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-family: Cookie;
+    font-size: 60px!Important;
+    color: rgb(30, 5, 60);
+    margin-top: 3%;
+}
+.Cards {
+    width: 18rem;  
+    text-align: center;
+    border: 1px;
+    border-color: rgb(180, 75, 0);
+}
+.Cards-titulo{ 
+    font-family: Cookie;
+    font-size: 35px!Important;
+    color:rgb(180, 75, 0);
+}
+.Cards-texto{
+    font-family: Roboto Light; 
+    color: rgb(30, 5, 60);   
+}
+.Cards button{
+    margin: 2px;
+    background-color: rgb(180, 75, 0);
+    font-family: Cookie;
+    font-size: 25px;
+    color: white;
+    border: none;   
+}
+.Cards button:hover {
+    background-color: rgb(30, 5, 60);
+    color:white;
+}
+.Cards button:active{
+    background-color: white;
+    color:rgb(30, 5, 60);
+}
+.Cards button:focus{
+    background-color: white;
+    color:rgb(30, 5, 60);
+}
+.Cards a{
+    font-family: Cookie;
+    color: white;
+    font-size: 25px;
+}
+.Cards a:hover{
+    font-family: Cookie;
+    color: white;
+    text-decoration: none;
+}
+.Cards a:active{
+    color:white;
+}

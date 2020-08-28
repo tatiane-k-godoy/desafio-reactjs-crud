@@ -1,0 +1,88 @@
+
+.Cadastro-body{
+    background-image: url("../images/bg-cadastro.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin-top: 0;
+    padding-top: 5%;
+    width: 100%;
+    height: 600px;
+}
+.Cadastro-body h1 {
+    text-align: center;
+    font-family: Cookie;
+    font-size: 60px;
+    color: white;
+  }
+
+.Cadastro-form {
+    display: block;
+    width: 60%;
+    margin-left: 15%;
+    text-align: right;
+}
+
+.Cadastro-form label{
+    font-family: Roboto Light;
+    margin-top: 1%;
+    color: white;
+}
+
+.Cadastro-form input{
+    background-color: transparent;
+    color: white;
+    font-family: Roboto;
+}
+.Cadastro-form input::placeholder{
+    color: white;
+    font-family: Roboto;
+}
+.Cadastro-form textarea{
+    background-color: transparent;
+    color: white;
+    font-family: Roboto;
+}
+.Cadastro-form textarea::placeholder{
+    color: white;
+    font-family: Roboto;
+}
+.Cadastro-form-file{
+    width: 80%;
+    height: 75%;
+    background-color: rgb(180, 75, 0);
+    font-family: Cookie!Important;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 3px;
+    padding-top: 4px;
+    margin-right: 4px;
+    
+}
+.Cadastro-form-file2{
+    display: none;
+}
+.Cadastro-form-file:hover{
+    background-color: white;
+    color:rgb(180, 75, 0);
+}
+.Cadastro-form button{
+    width: 100%;
+    background-color: rgb(180, 75, 0);
+    font-family: Cookie;
+    font-size: 25px;
+    color: white;
+    border: none;   
+}
+.Cadastro-form button:hover {
+    background-color: white;
+    color:rgb(180, 75, 0);
+}
+.Cadastro-form button:active{
+    background-color: rgb(30, 5, 60);
+    color:white;
+}
+.Cadastro-form button:focus{
+    background-color: rgb(30, 5, 60);
+    color:white;
+}

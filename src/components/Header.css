@@ -1,0 +1,66 @@
+.Header {
+    background-image: url("../images/bg-eventos.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin-top: 0;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.Carousel{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Header h1{
+    font-family: Roboto Thin;
+    color: white;
+    font-size: 30px!Important;
+    text-align: center;
+}
+.Header h3{
+    font-family: Roboto Thin;
+    color: white;
+    font-size: 20px!Important;
+    text-align: center;
+}
+.Header button{
+    width: 20%;
+    height: 8%;
+    text-align: center;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+}
+.Header button:hover{
+    background-color: transparent;
+    border-color: white;
+}
+.Header button:active{
+    background-color: rgb(30, 5, 60);
+    color:white;
+}
+.Header button:focus{
+    background-color: rgb(30, 5, 60);
+    color:white;
+}
+.Header a{
+    font-family: Cookie;
+    color: white;
+    font-size: 30px;
+}
+.Header a:hover{
+    font-family: Cookie;
+    color: rgb(180, 75, 0);
+    font-size: 30px;
+    text-decoration: none;
+}
+.Header a:active{
+    color:white;
+}
