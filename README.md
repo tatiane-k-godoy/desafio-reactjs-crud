@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O desafio é uma aplicação web para a divulgação de eventos. Os eventos são caracterizados por Título, Descrição, Data/Hora, E-mail e Telefone para contato, e podem ser presenciais ou online, lembrando que eventos presenciais possuem endereços físicos e eventos online possuem endereços digitais. Use a sua criatividade!
+Esperamos as cinco funcionalidades de um CRUD: index, create, show, update e delete. Não é preciso trabalhar com autenticação.
+Temos preferência por uma aplicação em React, mas caso não conheça essa biblioteca ainda, pode mostrar suas habilidades em HTML, CSS e JavaScript puros. Sinta-se livre para utilizar algum framework (Bootstrap, Materialize, Material UI, Tailwind, entre outros).
+Você pode utilizar estruturas de dados estáticas, ou pode nos surpreender recuperando dados do back-end, ou de uma API. Essa parte não é obrigatória, apenas deixamos você livre para acrescentar a recuperação de dados. Não esqueça que o que será avaliado é o desenvolvimento front-end!
+Coisas que levaremos em consideração na avaliação (não precisa implementar tudo, mas quanto mais melhor :D):
+- Legibilidade do código
+- Organização / design patterns
+- Bom uso das ferramentas escolhidas
+- Estilo de código
+- Validação e máscaras em formulários
+- Preenchimento de endereço por busca de CEP
+- Gerenciamento de estados com hooks ou redux
 
-## Available Scripts
+Do que faltou:
+- A aplicação abrange apenas eventos com endereços físicos;
+- Ainda sobre os endereços, existe um bug quanto ao preenchimento automático na hora de cadastrar. Se a caixa de preenchimento não for "editada" o endereço não é registrado por inteiro;
+- Outra questão que não foi possível concluir é a inserção de imagens, optei por não fazer pois a aplicação não estava reconhecendo as imagens, apenas links de imagens da web;
 
-In the project directory, you can run:
+Adicionei uma pasta com a ideia inicial do projeto.
 
-### `npm start`
+Por fim, optei por uma aplicação OnePage para facilitar a visualização da criação, exibição, edição e exclusão dos eventos.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Foi um grande desafio, pois não tenho familiaridade com React.js. Achei muito interessante e pude relembrar meus conhecimentos de orientação a objetos.
