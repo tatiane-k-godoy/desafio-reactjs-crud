@@ -14,7 +14,8 @@ Coisas que levaremos em consideração na avaliação (não precisa implementar 
 Do que faltou:
 - A aplicação abrange apenas eventos com endereços físicos;
 - Ainda sobre os endereços, existe um bug quanto ao preenchimento automático na hora de cadastrar. Se a caixa de preenchimento não for "editada" o endereço não é registrado por inteiro;
-- Outra questão que não foi possível concluir é a inserção de imagens, optei por não fazer pois a aplicação não estava reconhecendo as imagens, apenas links de imagens da web;
+- Gerenciamento de estados com hooks ou redux, pois não consegui me aprofundar neste conteúdo;
+- Outra questão que não foi possível concluir é a inserção de imagens, optei por não fazer, já a aplicação não estava reconhecendo as imagens, apenas links de imagens da web;
 
 Adicionei uma pasta com a ideia inicial do projeto.
 
